@@ -25,7 +25,6 @@ Large multimodal models (LMMs) show strong visual-linguistic reasoning but their
 - **Data Collection**: Over 500 hours of human-controlled data collection
 - **Average Trajectory Length**: ~203.4 meters
 - **Annotators**: 10 volunteers (5 for case creation, 5 experienced drone pilots with 100+ hours flight experience)
-- **Target Distance Range**: Within 300 meters to align with real-world drone logistics applications
 - **Action Types**:
   - Horizontal movement (move-forth, move-left, move-right, move-back)
   - Vertical movement (move-up, move-down)
@@ -66,11 +65,11 @@ conda env create -n EmbodiedCity -f environment.yml
 conda activate EmbodiedCity
 ```
 
-### 3. Dataset release (first 300 samples as examples)
+### 3. Dataset release
 
 All paths below are **relative to the project root**.
 
-We currently sample and open-source the first **300** trajectories as public examples:
+We are currently open-sourcing 300 trajectories as public examples:
 
 - `dataset/navi_data.pkl`
 - `dataset/navi_data_preview.json` (human-readable JSON preview)
@@ -141,7 +140,7 @@ Then run:
 python embodied_vln.py
 ```
 
-#### 4.1 Example: connect other API models
+**Example: connect other API models**
 
 Use the API placeholder pattern in `embodied_vln.py` as a template for plugging in your own model service.
 
