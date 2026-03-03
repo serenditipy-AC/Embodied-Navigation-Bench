@@ -1,0 +1,300 @@
+639070.410000, -415458.545000, 629.958725; the entrance of the red building on the left front
+638586.914000, -420444.824000, 629.958725; A coffee shop after turning right at the intersection ahead
+634555.225000, -419954.443000, 629.958725; The bus stop behind
+579872.607000, -450385.596000, 30629.956100; A nearby apron
+608941.797000, -407305.054000, 68629.950000; The apron of the tallest building in front of us
+609376.172000, -413238.428000, 629.939079; Entrance of the building below, where there are several pink trees
+598765.918000, -385269.116000, 3629.938890; The red billboard on the left building
+597775.732000, -373774.609000, 1629.938890; The white billboard of the building ahead
+598012.598000, -367579.565000, 1629.938890; The brown billboard of the building ahead
+598157.227000, -370058.276000, 1629.938890; The blue billboard of the building on the right
+566351.660000, -363878.613000, 629.938889; The elevated bridge blocked by the buildings ahead
+551984.424000, -395563.770000, 1629.938890; The ground floor of a nearby building resembling an ancient Chinese pagoda
+519657.910000, -423888.184000, 12629.939300; The roof of the red-and-yellow building ahead
+545657.910000, -423888.184000, 15629.939300; The roof of the yellow building on the right
+528787.939000, -451394.336000, 629.932785; The entrance of the building below
+548596.631000, -479469.873000, 1629.932400; The entrance of the building near the road ahead
+564824.854000, -491209.717000, 629.931641; The pink tree in the corner of the building below (near the road)
+588821.729000, -492948.096000, 1629.931640; The platform located on the third floor of the building ahead
+741656.494000, -452945.850000, 629.931641; The zebra crossing on the road ahead
+735824.658000, -437866.943000, 2629.931640; The roof of the three story building on the right front
+724568.408000, -420015.088000, 629.931641; Turn right ahead and go straight for the first zebra crossing
+732111.670000, -417719.092000, 629.931641; The pink tree in the field of view
+723145.898000, -408212.866000, 1629.931640; The red brick house on the left side of the road ahead
+718078.125000, -411208.691000, 629.931641; A pink tree around
+717078.125000, -411208.691000, 1629.931640; The roof of the left building
+626567.676000, -350559.717000, 629.931641; The entrance below the blue billboard on the back side of the building
+626567.676000, -353559.717000, 34629.928600; The roof of the building on the right
+626567.676000, -368559.717000, 39629.928600; The roof of the opposite building
+630776.660000, -397722.314000, 30629.925500; The apron of the building on the right side ahead
+626567.041000, -407884.863000, 31629.925500; The apron of the building on the left
+598776.416000, -356249.268000, 2629.956050; A yellow billboard
+598569.043000, -353124.341000, 2629.956050; A billboard with the words 'cutty sark' written on it
+592961.230000, -357199.707000, 32629.956100; The center of the rooftop of the building ahead
+592732.861000, -356051.611000, 32629.956100; The center of the rooftop of the building behind
+521732.861000, -356051.611000, 19629.956100; The nearest apron
+528741.113000, -350913.892000, 629.956055; The entrance of the building below
+529515.479000, -498184.277000, 20629.956100; The roof of the building ahead
+576210.352000, -529384.570000, 1629.956050; The center of the empty space in the middle of the building complex composed of four white buildings ahead
+759115.918000, -351189.673000, 629.956055; Search along the right side for the entrance to the community, which is marked by a guard post.
+758026.123000, -355820.654000, -370.043945; Parking spaces in the community ahead
+755208.350000, -358073.438000, -370.043945; Entrance to the underground parking lot within the residential area
+761675.488000, -355394.580000, 8629.956050; The roof of the building ahead
+768910.107000, -350546.802000, 629.956055; The entrance and exit of the residential area where you are located
+774757.861000, -350781.396000, -370.043945; The shop with a blue sign on the left side ahead
+784681.543000, -350246.460000, 629.956055; The crossroads ahead
+782833.789000, -361011.841000, 629.956055; the entrance of the residential area ahead
+783138.232000, -363542.554000, 5629.956050; The middle area of the building ahead
+784138.232000, -356542.554000, 629.956055; a clinic ahead
+777138.232000, -356542.554000, 629.956055; Circular lawn inside the residential area ahead
+763144.727000, -357982.959000, 629.956055; A flat topped gray house in the residential area ahead
+638918.164000, -421223.877000, 629.958725; The coffee shop on the street below
+640213.965000, -421767.139000, 29.958725; The yellow sign shop on the street below
+635244.678000, -419844.336000, 229.958773; A bus stop ahead
+626244.678000, -421844.336000, 1229.958720; The balcony on the fourth floor at the edge of the building ahead
+622916.797000, -410381.396000, 5229.958340; The blue billboard on the building ahead
+623570.801000, -407105.591000, 6229.958340; The blue billboard on the building ahead
+626287.500000, -399327.832000, 7229.957580; The white billboard of the building ahead
+626841.064000, -395598.804000, 5229.956440; The white billboard of the building ahead
+641701.318000, -420783.105000, 229.956436; The shop called 'cheesspod' on the left side of the road ahead
+521579.248047, -356637.768555, 18955.155945; Center of Apron of the building below
+532349.561000, -352347.803000, -308.012533; Main Entrance of the building below
+574517.676000, -356291.797000, -501.939058; Main Entrance of the building below
+580346.240000, -357482.642000, 12498.062100; The balcony on the 31st floor of the yellow building below
+580836.475000, -358513.892000, 13498.062100; The balcony on the 31st floor of the yellow building ahead
+580748.535000, -358009.741000, 13498.062100; The balcony on the 31st floor of the building below
+580558.350000, -358550.732000, 13498.062100; The balcony on the 31st floor of the yellow building ahead
+580990.430000, -358441.455000, 13498.062100; The balcony on the 31st floor of the yellow building ahead
+580673.047000, -358902.271000, 13498.062100; The balcony on the 31st floor of the yellow building in the field of view
+580780.713000, -358181.396000, 11498.062100; The balcony on the 27th floor of the building below
+580838.721000, -358079.175000, 11498.062100; The balcony on the 27th floor of the yellow building below
+580621.973000, -358403.418000, 11498.062100; The balcony on the 27th floor of the yellow building ahead
+580957.666000, -358489.673000, 11498.062100; The balcony on the 27th floor of the building ahead
+580652.344000, -358706.299000, 11498.060600; The balcony on the 27th floor of the yellow building ahead
+580751.367000, -358524.316000, 11498.060600; The balcony on the 27th floor of the light yellow building ahead
+580751.367000, -358524.268000, 7498.060610; The balcony on the 18th floor of the building ahead
+580846.680000, -358473.267000, 7498.060610; The balcony on the 18th floor of the light yellow building ahead
+580483.105000, -358162.329000, 7498.060610; The balcony on the 18th floor of the yellow building below
+580857.617000, -358257.642000, 7498.060610; The 18th floor balcony of the building below (with floor number markings on the exterior walls)
+580857.617000, -358257.642000, 7498.059840; The 18th floor balcony of the building on the right (with floor number markings on the exterior walls)
+580736.230000, -358378.931000, 7498.059840; The 18th floor balcony of the building on the left (with floor number markings on the exterior walls)
+580226.611000, -358250.049000, 4498.059840; The 11th floor balcony of the building ahead (with floor number markings on the exterior walls)
+580952.783000, -358308.179000, 4498.057940; The 11th floor balcony of the building ahead (with floor number markings on the exterior walls)
+581237.939000, -358798.120000, 4498.057560; The 11th floor balcony of the building ahead (with floor number markings on the exterior walls)
+580694.287000, -357905.615000, 4498.057560; The 11th floor balcony of the building behind (with floor number markings on the exterior walls)
+581255.908000, -358453.955000, 4498.054500; The 11th floor balcony of the building below (with floor number markings on the exterior walls)
+580931.299000, -358275.610000, 4498.054500; The 11th floor balcony of the building below (with floor number markings on the exterior walls)
+581294.727000, -358000.366000, 2498.054120; The 6th floor balcony of the building below (with floor number markings on the exterior walls)
+581295.605000, -358151.392000, 2498.054120; The 6th floor balcony of the building below (with floor number markings on the exterior walls)
+580295.605000, -358151.392000, 2498.054120; The 6th floor balcony of the building below (with floor number markings on the exterior walls)
+580879.248000, -358358.960000, 2498.054120; The 6th floor balcony of the building ahead (with floor number markings on the exterior walls)
+581164.600000, -358302.002000, 2498.054120; The 6th floor balcony of the building ahead (with floor number markings on the exterior walls)
+580654.980000, -358098.877000, 2498.054120; The 6th floor balcony of the building on the right (with floor number markings on the exterior walls)
+573754.248047, -359053.466797, 2498.061180; The elevator on the left side of the entrance of the building below
+574496.484000, -358298.804000, 3498.061370; The elevator on the left side of the entrance of the yellow building below
+573830.371000, -358670.776000, 2498.061180; The elevator on the left side of the entrance of the yellow building below
+573479.004000, -358581.470000, 2498.061180; The elevator on the left side of the main entrance of the building ahead
+573893.115000, -358348.145000, 2498.061180; The elevator on the left side of the entrance of the yellow building ahead
+574212.354000, -358291.113000, 2498.060990; The elevator on the left side of the main entrance of the building ahead
+574356.982000, -357515.332000, 3498.060990; The elevator on the left side of the entrance of the yellow building on the left
+573898.193000, -358821.899000, 1498.060420; The pink tree in front of the gate of the building ahead
+572295.850000, -359512.549000, 1498.057750; The pink tree in front of the gate of the building ahead
+573346.973000, -358790.308000, 498.057556; The pink tree in front of the gate of the building ahead
+575105.420000, -355154.395000, 3498.054500; The elevator on the right side of the entrance of the yellow building below
+575105.420000, -355154.395000, 2498.054310; The elevator on the right side of the entrance of the building ahead
+573982.617000, -354811.987000, 2498.054310; The elevator on the right side of the entrance of the yellow building ahead
+575144.043000, -354417.676000, 2498.054310; The elevator on the right side of the entrance of the building on the right
+573995.654000, -354645.996000, 2498.054120; The elevator on the right side of the entrance of the building ahead
+573790.430000, -355145.044000, 2498.054120; The elevator on the right side of the entrance of the building ahead
+576726.367000, -351330.396000, 498.054028; SPD Bank, which is located on the first floor of the building below
+577411.230000, -351801.709000, 498.054028; SPD Bank, which is located on the first floor of the building below
+577003.223000, -351211.719000, 1498.054030; SPD Bank, which is located on the first floor of the building ahead
+577569.678000, -351860.498000, 498.054028; SPD Bank, which is located on the first floor of the building ahead
+577334.131000, -352174.707000, 498.054028; SPD Bank, which is located on the first floor of the building on the left
+577131.055000, -354512.769000, 14498.054500; Top floors of the building ahead
+581260.352000, -357934.521000, 14498.054500; Top floor of the yellow building on the left
+576031.982000, -356786.426000, 14498.054500; Top floor of the building ahead
+633409.570312, -421381.542969, 1330.143166; roof of the building below
+634409.570000, -421381.543000, 1330.142880; Roof of the building below
+633760.596000, -421815.039000, 2330.142780; Roof of the building ahead
+631464.502000, -421815.039000, 2330.142780; Roof of the building ahead
+626812.354000, -423845.898000, 1330.142780; The tree on the back of the building ahead
+638297.852000, -411237.451000, 6330.142970; Roof of the building ahead
+638297.852000, -411237.451000, 6330.141830; Top floor of the building below
+634409.570000, -420381.543000, 330.142784; The bus stop in front of the building below
+635409.570000, -420381.543000, 330.142784; The bus stop in front of the building below
+634720.312000, -420151.123000, 330.142879; A nearby bus station
+623796.436000, -419768.457000, 330.142879; The cross road zebra crossing ahead
+635064.697000, -419882.471000, 330.142879; The bus station ahead
+637409.570000, -421381.543000, 330.143142; Side electric gate near the building below
+635409.570000, -422381.543000, 2330.142970; roof of the building on the left
+637409.570000, -421381.543000, 330.142879; Side electric gate near the building below
+639409.570000, -422381.543000, 2330.142780; roof of the building on the left
+635409.570000, -420381.543000, 330.142784; The green tree behind the bus stop below
+635409.570000, -420381.543000, 330.141044; The green tree behind the bus stop below
+635268.848000, -420439.746000, 330.141044; The green tree behind the bus stop ahead
+635040.479000, -420822.412000, 330.141044; The green tree behind the bus stop behind
+627319.727000, -421012.549000, 1330.143170; The first air conditioning unit on the left side of the top floor of the building below
+626675.049000, -421268.262000, 1330.142780; The first air conditioning unit on the left side of the top floor of the building below
+626751.172000, -420650.928000, 1330.142780; The first air conditioning unit on the left side of the top floor of the building ahead
+627350.537000, -420899.219000, 1330.142780; The first air conditioning unit on the left side of the top floor of the building ahead
+638508.984000, -420668.799000, 330.142784; Central ALL-STAR cafe, which is located on this street
+639030.225000, -420523.926000, 330.142784; Central ALL-STAR cafe ahead
+638182.471000, -420758.594000, 330.141163; Central ALL-STAR cafe, which is located on the street below
+637672.852000, -420790.186000, 330.141044; Central ALL-STAR cafe, which is located in the building below
+638672.852000, -420790.186000, 330.139828; Central ALL-STAR cafe, which is located in the building below
+638672.852000, -420790.186000, 1330.137830; The window directly above the Central ALL-STAR cafe
+637735.303000, -420924.463000, 1330.137830; The window directly above the Central ALL-STAR cafe ahead
+638256.543000, -421014.258000, 330.137777; The staircase in front of the Central ALL-STAR cafe, which is located in the building ahead
+637938.721000, -420770.898000, 330.137634; The staircase in front of the Central ALL-STAR cafe, which is located in the building below
+639028.418000, -421401.904000, 330.137634; The tables and chairs in front of the Central ALL-STAR cafe, which is located in the building below
+638958.545000, -420319.482000, 330.137634; ,The tables and chairs in front of the Central ALL-STAR cafe, which is located in the building ahead
+638347.510000, -420543.604000, 330.137634; The bicycle in front of a coffee shop ahead
+638901.416000, -420917.529000, 330.137634; The bicycle in front of the coffee shop below
+639850.293000, -420642.529000, 330.137634; Convenience store selling alcohol (yellow sign) in the building ahead
+640884.033000, -420822.119000, 330.137634; Convenience store selling alcohol (yellow sign) in the building ahead
+640077.100000, -420835.791000, 330.137634; Convenience store selling alcohol (yellow sign) in the building ahead
+640690.039000, -420918.213000, 330.137634; Convenience store selling alcohol (yellow sign) in the building below
+640690.039000, -421918.213000, 2330.137630; roof of the building ahead
+640690.039000, -420918.213000, 330.137634; Convenience store selling alcohol (yellow sign) in the building below
+640842.285000, -420683.545000, 330.137634; The red motorcycle in front of the store with a yellow sign
+640072.607000, -420525.000000, 330.137634; The red motorcycle in front of the store with a yellow sign
+639455.225000, -420601.123000, 330.137634; The red motorcycle in front of the store with a yellow sign
+641455.225000, -420601.123000, 330.137634; A shop called Cheesspod, which located in the building below
+642269.287000, -421163.379000, 330.137634; A shop called Cheesspod ahead
+641197.363000, -420774.414000, 330.137634; A shop called Cheesspod, which located in the building below
+642197.363000, -420774.414000, 330.137634; A shop called Cheesspod, which located in the building ahead
+642210.986000, -420760.742000, 330.137634; A shop called Cheesspod, which located in the building ahead
+639914.844000, -414369.727000, 330.137634; The stone statue of the entrance of the building below
+639914.844000, -414369.727000, 330.134392; The stone statue of the main entrance of the building below
+639463.379000, -407017.896000, 1330.134110; The back of the building ahead
+639769.678000, -414406.738000, 330.134082; The stone statue of the main entrance of the building ahead
+639178.857000, -414566.602000, 330.134082; The stone statue of the main entrance of the building ahead
+639178.857000, -410566.602000, 5330.134580; roof og the building below
+639178.857000, -412566.602000, 2330.134390; A three story platform located above the entrance of the building below
+641722.852000, -413533.838000, 3330.134580; A three story platform located above the entrance of the building ahead
+639983.691000, -412336.279000, 2330.134390; A three story platform located above the entrance of the building below
+638799.463000, -413080.518000, 2330.134200; A three story platform located above the entrance of the brown building ahead
+638092.285000, -416373.389000, 1330.134390; The tree directly facing the entrance of the building below
+639332.910000, -416064.551000, 330.134082; The tree directly facing the entrance of the building below
+640804.980000, -416268.164000, 330.134082; The tree directly facing the entrance of the building ahead
+640794.043000, -416031.396000, 330.134082; The tree directly facing the entrance of the building ahead
+746497.852000, -357727.490000, 336.726189; A nearby shop with the sign name '常青麦香园', which is located in the building below
+748345.605000, -356962.109000, 1336.726190; Roof of the building ahead
+746345.605000, -357962.109000, 336.725879; A nearby shop with the sign name '常青麦香园', which is located in the building below
+746345.557000, -357961.963000, 336.725879; A nearby shop with the sign name '常青麦香园', which is located in the building ahead
+746435.352000, -357745.142000, 336.725879; A nearby shop with the sign name '常青麦香园', which is located in the building ahead
+747025.977000, -357756.641000, 336.725879; A nearby shop with the sign name '常青麦香园', which is located in the building ahead
+746318.848000, -357049.438000, 336.725879; A nearby shop with the red sign named '荆楚食光', which is located in the building below
+746480.420000, -356807.300000, 336.725879; A nearby shop with the red sign named '荆楚食光', which is located in the building below
+746714.941000, -356904.395000, 336.725879; A nearby shop with the red sign named '荆楚食光', which is located in the building ahead
+746714.941000, -356904.370000, 336.725879; A nearby shop with the red sign named '荆楚食光', which is located in the building ahead
+748906.299000, -354156.616000, 9336.726380; Square openings designed for ventilation or skylights on the roof below
+748906.299000, -354156.616000, 9336.726380; Square openings designed for ventilation or skylights on the roof below
+755246.240000, -351466.187000, 450.294828; A nearby shop with a white sign displaying the text ""爱玛""", which is loacted in the building below
+754539.111000, -351759.082000, 450.294304; A shop with a sign displaying the text "JUMING TEA", which is loacted in the building below
+754921.680000, -350835.181000, 450.294304; A shop with a sign displaying the text "JUMING TEA", which is loacted in the building ahead
+754774.658000, -351193.652000, 450.293541; A shop with a sign displaying the text "JUMING TEA", which is loacted in the building ahead
+759151.660000, -351474.243000, 450.293303; Entrance of the residential community ahead. Besides, the entrance is next to the shop with a yellow sign displaying the text ""乐购便利店"""
+759277.979000, -351249.927000, 450.293303; Entrance of the residential community ahead. Besides, the entrance is next to the shop with a yellow sign displaying the text ""乐购便利店"""
+759184.473000, -351865.063000, 450.292969; Entrance of the residential community ahead. Besides, the entrance is next to the shop with a yellow sign displaying the text ""乐购便利店"""
+759536.230000, -351257.935000, 450.292969; Entrance of the residential community ahead. Besides, the entrance is next to the shop with a yellow sign displaying the text ""乐购便利店"""
+759536.230000, -351257.935000, 450.292969; Entrance of the residential community below. Besides, the entrance is next to the shop with a yellow sign displaying the text ""乐购便利店"""
+759243.359000, -351550.781000, 450.292969; Entrance of the residential community below. Besides, the entrance is next to the shop with a yellow sign displaying the text ""乐购便利店"""
+759817.188000, -351141.211000, 450.292969; Entrance of the residential community below. Besides, the entrance is next to the shop with a yellow sign displaying the text ""乐购便利店"""
+765002.979000, -353703.467000, 450.292969; The green trash can next to the building below
+765385.596000, -354627.344000, 450.292969; The green trash can next to the building below
+755903.662000, -353897.705000, 202.960205; Nearby green trash can
+756673.193000, -353739.209000, 202.960205; green trash can ahead
+753594.971000, -356193.848000, 202.958202; Fitness equipment on the lawn in the community below
+753594.971000, -356193.848000, 202.958202; Fitness equipment on the lawn in the community below
+753594.971000, -356193.848000, 202.958202; Fitness equipment on the lawn in the community below
+752868.555000, -357549.707000, 1202.958200; A two-story small house with a blue tile roof in the community below
+751868.066000, -356549.658000, 1202.958200; A two-story small house with a blue tile roof in the community ahead
+752518.164000, -357522.827000, 1202.958200; A two-story small house with a blue tile roof in the community
+751940.674000, -357824.829000, 202.958202; The entrance to the underground parking lot is located in the corner of the residential community below, adjacent to a two-story small house with a blue tile roof
+751368.506000, -358092.310000, 202.958202; The entrance to the underground parking lot is located in the corner of the residential community below, adjacent to a two-story small house with a blue tile roof
+752284.668000, -357891.992000, 202.958202; The entrance to the underground parking lot is located in the corner of the residential community ahead, adjacent to a two-story small house with a blue tile roof
+755047.803000, -355054.614000, 202.958202; A red tree in the community below
+755430.469000, -354130.737000, 202.958202; A red tree in the community below
+761354.346000, -353748.022000, 202.958202; Blue trash can ahead
+766043.994000, -353187.842000, 798.765564; The entrance of the building below oriented towards the interior of the residential complex
+766196.240000, -353953.223000, 298.765564; The entrance of the building below oriented towards the interior of the residential complex
+769181.250000, -350813.306000, 298.765564; Entrance of the community ahead next to the shop with a sign displaying the text ""久源烟酒行"""
+769483.838000, -351368.652000, 298.765564; Entrance to the residential area on the left front
+771331.543000, -352134.033000, 8298.765560; roof of the building on the right
+768313.428000, -354153.906000, 298.765564; The entrance to the underground parking garage in the community below (visible upon entering Entrance of the community next to the shop with a sign displaying the text ""久源烟酒行"")
+768252.295000, -354214.868000, 298.765564; The entrance to the underground parking garage in the community ahead (visible upon entering Entrance of the community next to the shop with a sign displaying the text ""久源烟酒行"")
+782392.920000, -360344.092000, 298.765564; Entrance of the residential area below, there is a stone with the words' 宜盛花园 'written on it
+784464.600000, -371415.991000, 298.765564; Turn left ahead and walk to the residential area
+640527.100000, -415162.549000, 629.958725; the entrance of the red building on the left front
+640845.947000, -420682.568000, 629.958725; A shop with yellow billboard after turning right at the intersection ahead
+635815.283000, -420592.822000, 629.958725; The bus stop behind
+626544.971000, -409514.673000, 31629.956100; A nearby apron
+629606.104000, -398123.584000, 31629.956100; The apron of the adjacent building
+610364.355000, -408164.648000, 69629.950000; The apron of the tallest building in front of us
+611482.617000, -412867.871000, 629.939079; Entrance of the building below, where there are several pink trees
+598356.543000, -386608.643000, 3629.938890; The red billboard on the right building
+626377.246000, -396558.398000, 5629.938890; The white billboard of the building ahead
+622334.375000, -410735.352000, 6629.939270; The blue billboard of the building ahead
+564289.844000, -373294.971000, 629.938889; The elevated bridge blocked by the buildings ahead
+553573.535000, -399162.891000, 1629.938890; The ground floor of a nearby building resembling an ancient Chinese pagoda
+552585.596000, -399940.698000, 37629.937700; The top floor of a nearby building resembling an ancient Chinese pagoda
+519657.910000, -419888.184000, 9629.939270; The roof of the red-and-yellow building ahead
+542642.676000, -381495.020000, 19629.939300; roof of the building ahead
+549305.908000, -477096.924000, 2629.925540; The entrance of the building ahead near the road
+566672.607000, -490444.434000, 1629.931640; The pink tree in the corner of the building below (near the road)
+590600.537000, -491500.928000, 2629.931640; The platform located on the third floor of the building ahead
+738012.354000, -471329.248000, 629.931641; red trees ahead
+740416.162000, -416780.420000, 629.931641; Turn right and go straight for the second zebra crossing
+724568.408000, -408015.088000, 3629.931640; roof of the red building on the right
+718078.125000, -412208.691000, 629.931641; A pink tree around
+624601.855000, -349409.058000, 1629.931640; ,The entrance below the blue billboard of the building ahead
+626567.676000, -353559.717000, 34629.928600; The roof of the building on the left
+595567.676000, -353559.717000, 33629.928600; The roof of the opposite building, which is slightly lower than the current height
+593984.473000, -397894.238000, 35629.925500; There are four parking aprons in sight, go to the first one on the left
+601769.238000, -361197.241000, 1629.956050; A blue billboard in the park
+598569.043000, -353124.341000, 2629.956050; A billboard with the words 'cutty sark' written on it
+594039.746000, -368514.746000, 47629.956100; The center of the rooftop of the building ahead
+529389.795000, -350828.149000, 629.956055; The entrance of the building below
+595851.562000, -391826.123000, 629.956055; Follow the road and find the first zebra crossing
+782999.365000, -360966.113000, 629.956055; Search along the right side for the entrance to the community, which is marked by a guard post.
+779520.605000, -362821.240000, 629.956055; Parking spaces in the community ahead
+772077.295000, -354232.690000, 629.956055; Entrance to the underground parking lot within the residential area
+772077.295000, -358232.690000, 8629.956050; The roof of the building ahead
+783890.625000, -367238.110000, 629.956055; The shop with a blue sign on the left side ahead
+783450.537000, -361572.144000, 629.956055; the entrance of the residential area ahead
+784306.543000, -370565.430000, 629.956055; the entrance in the corner of the residential area ahead
+784458.301000, -369119.019000, 629.956055; Turn left ahead and find a community clinic
+772348.486000, -366173.804000, 629.956055; a pavilion inside the residential area ahead
+761770.361000, -358819.238000, 629.956055; A flat topped gray house in the residential area ahead
+638244.678000, -420844.336000, 629.958725; The coffee shop on the street below
+640072.412000, -420881.445000, 629.958725; ,The yellow sign shop on the street ahead
+635148.535000, -420029.443000, 629.958725; A bus stop on the street ahead
+633743.604000, -420666.553000, 229.958725; blue billboard on the building ahead
+626174.316000, -395358.667000, 7229.956050; The white billboard of the building ahead
+625867.725000, -395899.805000, 7229.956050; The white billboard of the building ahead
+521579.248000, -356637.769000, 19955.155900; Center of Apron of the building ahead
+528579.248000, -350637.769000, 955.151939; Main Entrance of the building below
+580463.477000, -357767.920000, 11955.151400; The 28th floor balcony of the building below (with floor number markings on the exterior walls)
+580649.658000, -358555.737000, 11955.151400; The 28th floor balcony of the building on the left (with floor number markings on the exterior walls)
+580655.713000, -358496.802000, 8955.151370; The 21th floor balcony of the building ahead (with floor number markings on the exterior walls)
+581165.186000, -358547.583000, 8955.151370; The 21th floor balcony of the building ahead (with floor number markings on the exterior walls)
+581493.164000, -358313.525000, 1955.151370; The 5th floor balcony of the building ahead (with floor number markings on the exterior walls)
+580826.172000, -358278.735000, 1955.151370; The 5th floor balcony of the yellow building on the right (with floor number markings on the exterior walls)
+574316.357000, -354914.868000, 2955.151370; The elevator on the right side of the entrance of the building below
+573442.969000, -357358.398000, 955.151367; A store with orange billboard, which is located in the building ahead
+573960.107000, -354841.187000, 2955.151370; The elevator on the right side of the entrance of the building ahead
+574985.352000, -355369.019000, 2955.151370; The elevator on the left side of the main entrance of the yellow building ahead
+569382.617000, -356827.710000, 955.151367; The green tree in front of the gate of the building on the right
+570740.625000, -357040.454000, 955.151367; The green tree in front of the gate of the building ahead
+577593.555000, -352246.924000, 955.155087; SPD Bank, which is located on the first floor of the building ahead
+576202.246000, -352274.829000, 955.155087; SPD Bank, which is located on the first floor of the building ahead
+577130.225000, -351416.528000, 955.155087; SPD Bank, which is located on the first floor of the building ahead
+580167.285000, -355162.842000, 14498.054500; Top floors of the building ahead
+633485.693000, -421764.209000, 2330.142970; Roof of the building below
+635337.598000, -423992.529000, 330.142784; The red tree on the back of the building ahead
+639261.475000, -422609.863000, 2330.142780; Roof of the building ahead
+635113.428000, -419838.232000, 330.141044; The bus stop in front of the building below
+645037.305000, -419455.566000, 330.141044; The traffic light ahead
+635189.551000, -420220.898000, 330.141044; The bus stop behind

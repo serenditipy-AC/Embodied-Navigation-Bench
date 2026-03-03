@@ -34,11 +34,89 @@ Large multimodal models (LMMs) show strong visual-linguistic reasoning but their
   - Camera gimbal adjustment (adjust-camera-gimbal-upwards, adjust-camera-gimbal-downwards)
 - **Trajectory Distribution**: Uniform horizontal directions; more frequent downward movements (aligning with practical drone navigation)
 
-**Statistics Visualization:**
+** Dataset Construction and Statistical Visualization:**
 
 ![Dataset Statistics](image/statistics.png)
 
-*Figure: a. The length distribution of navigation trajectories. b. Frequency statistics of action counts in navigation trajectories. c. The relative position of trajectories to the origin. d. Proportion of various types of actions. e. Word cloud of goal instructions.*
+*Figure: a. Dataset Construction Pipeline. b. The length distribution of navigation trajectories. c. Proportion of various types of actions. d. The relative position of trajectories to the origin. e. Word cloud of goal instructions.*
+
+---
+
+## Environment Setup and Simulator Deployment
+
+This project references [EmbodiedCity](https://github.com/tsinghua-fib-lab/EmbodiedCity) for the urban simulation environment.
+
+### 1. Download the simulator
+
+- Offline simulator download (official): [EmbodiedCity-Simulator on HuggingFace](https://huggingface.co/datasets/EmbodiedCity/EmbodiedCity-Simulator)
+- Download and extract the simulator package, then launch the provided executable (`.exe`) and keep it running before evaluation.
+
+### 2. Create the Python environment
+
+Use one of the following ways:
+
+```bash
+conda create -n EmbodiedCity python=3.10 -y
+conda activate EmbodiedCity
+pip install airsim openai opencv-python numpy pandas
+```
+
+If you are using the simulator package's built-in environment files:
+
+```bash
+conda env create -n EmbodiedCity -f environment.yml
+conda activate EmbodiedCity
+```
+
+### 2.1 Fill API placeholders in `embodied_vln.py`
+
+The script now uses placeholders by default and will stop with a clear error if they are not configured.
+
+Required variables used in `embodied_vln.py`:
+
+- `AZURE_OPENAI_MODEL`
+- `AZURE_OPENAI_API_KEY`
+- `AZURE_OPENAI_ENDPOINT`
+- `AZURE_OPENAI_API_VERSION` (optional, default: `2024-07-01-preview`)
+
+Set variables in PowerShell:
+
+```powershell
+$env:AZURE_OPENAI_MODEL="your-deployment-name"
+$env:AZURE_OPENAI_API_KEY="your-api-key"
+$env:AZURE_OPENAI_ENDPOINT="https://your-resource-name.openai.azure.com/"
+$env:AZURE_OPENAI_API_VERSION="2024-07-01-preview"
+```
+
+Or directly edit placeholders in `embodied_vln.py`:
+
+- `YOUR_AZURE_OPENAI_DEPLOYMENT`
+- `YOUR_AZURE_OPENAI_API_KEY`
+- `https://YOUR-RESOURCE-NAME.openai.azure.com/`
+
+### 3. Dataset release (first 300 samples)
+
+All paths below are **relative to the project root**.
+
+We currently open-source the first **300** navigation samples in:
+
+- `dataset/navi_data.pkl`
+- `dataset/label.txt`
+- `dataset/start_loc.csv`
+
+### 4. How to test your own model
+
+To evaluate your model, modify the Agent logic in [`embodied_vln.py`](./embodied_vln.py), mainly in the `ActionGen` class:
+
+- `ActionGen.query(...)`: replace prompt design / model API call / decision logic.
+- Keep output command format compatible with `parse_llm_action(...)` (one command per step).
+- Supported commands include: `move_forth`, `move_back`, `move_left`, `move_right`, `move_up`, `move_down`, `turn_left`, `turn_right`, `angle_up`, `angle_down`.
+
+Then run:
+
+```bash
+python embodied_vln.py
+```
 
 ---
 
