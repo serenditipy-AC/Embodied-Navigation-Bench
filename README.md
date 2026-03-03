@@ -10,9 +10,9 @@ Large multimodal models (LMMs) show strong visual-linguistic reasoning but their
 
 ### Navigation Example
 
-|                             Example 1                             |                             Example 2                             |                              Example 3                              |
-| :---------------------------------------------------------------: | :---------------------------------------------------------------: | :------------------------------------------------------------------: |
-|                     *Goal: Nearby bus stop*                     |        *Goal: The fresh food shop in the building below*        | *Goal: The balcony on the 20th floor of the building on the right* |
+|                               Example 1                               |                               Example 2                               |                               Example 3                               |
+| :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
+|                       *Goal: Nearby bus stop*                       |          *Goal: The fresh food shop in the building below*          | *Goal: The balcony on the 20th floor of the building on the right* |
 | <a href="video/1.mp4"><img src="video/1.gif" width="300"></a> | <a href="video/2.mp4"><img src="video/2.gif" width="300"></a> | <a href="video/3.mp4"><img src="video/3.gif" width="300"></a> |
 
 > **Note**: The videos above demonstrate goal-oriented embodied navigation examples in urban airspace. Given linguistic instructions, the task evaluates the ability to progressively act based on continuous embodied observations to approach the goal location.
@@ -23,18 +23,16 @@ Large multimodal models (LMMs) show strong visual-linguistic reasoning but their
 
 - **Total Trajectories**: 5,037 high-quality goal-oriented navigation trajectories
 - **Data Collection**: Over 500 hours of human-controlled data collection
-- **Average Trajectory Length**: ~175.2 meters
-- **Average Actions per Trajectory**: 27.9 actions
+- **Average Trajectory Length**: ~203.4 meters
 - **Annotators**: 10 volunteers (5 for case creation, 5 experienced drone pilots with 100+ hours flight experience)
 - **Target Distance Range**: Within 300 meters to align with real-world drone logistics applications
 - **Action Types**:
   - Horizontal movement (move-forth, move-left, move-right, move-back)
   - Vertical movement (move-up, move-down)
-  - Rotation (turn-left, turn-right)
-  - Camera gimbal adjustment (adjust-camera-gimbal-upwards, adjust-camera-gimbal-downwards)
-- **Trajectory Distribution**: Uniform horizontal directions; more frequent downward movements (aligning with practical drone navigation)
+  - Rotation/view Change (turn-left, turn-right，adjust-camera-gimbal-upwards, adjust-camera-gimbal-downwards)
+- **Trajectory Distribution**: Pay more attention to vertical movement
 
-** Dataset Construction and Statistical Visualization:**
+**Dataset Construction and Statistical Visualization:** 
 
 ![Dataset Statistics](image/statistics.png)
 
@@ -68,41 +66,66 @@ conda env create -n EmbodiedCity -f environment.yml
 conda activate EmbodiedCity
 ```
 
-### 2.1 Fill API placeholders in `embodied_vln.py`
-
-The script now uses placeholders by default and will stop with a clear error if they are not configured.
-
-Required variables used in `embodied_vln.py`:
-
-- `AZURE_OPENAI_MODEL`
-- `AZURE_OPENAI_API_KEY`
-- `AZURE_OPENAI_ENDPOINT`
-- `AZURE_OPENAI_API_VERSION` (optional, default: `2024-07-01-preview`)
-
-Set variables in PowerShell:
-
-```powershell
-$env:AZURE_OPENAI_MODEL="your-deployment-name"
-$env:AZURE_OPENAI_API_KEY="your-api-key"
-$env:AZURE_OPENAI_ENDPOINT="https://your-resource-name.openai.azure.com/"
-$env:AZURE_OPENAI_API_VERSION="2024-07-01-preview"
-```
-
-Or directly edit placeholders in `embodied_vln.py`:
-
-- `YOUR_AZURE_OPENAI_DEPLOYMENT`
-- `YOUR_AZURE_OPENAI_API_KEY`
-- `https://YOUR-RESOURCE-NAME.openai.azure.com/`
-
-### 3. Dataset release (first 300 samples)
+### 3. Dataset release (first 300 samples as examples)
 
 All paths below are **relative to the project root**.
 
-We currently open-source the first **300** navigation samples in:
+We currently sample and open-source the first **300** trajectories as public examples:
 
 - `dataset/navi_data.pkl`
-- `dataset/label.txt`
-- `dataset/start_loc.csv`
+- `dataset/navi_data_preview.json` (human-readable JSON preview)
+
+`dataset/navi_data.pkl` is the canonical dataset file for evaluation.
+
+#### 3.1 `navi_data.pkl` field schema
+
+Each sample in `dataset/navi_data.pkl` is a Python `dict` with the following fields:
+
+| Field | Type | Description |
+| :-- | :-- | :-- |
+| `folder` | `str` | Scene folder identifier |
+| `start_pos` | `float[3]` | Initial drone world position `(x, y, z)` |
+| `start_rot` | `float[3]` | Initial drone orientation `(roll, pitch, yaw)` in radians |
+| `start_ang` | `float` | Initial camera gimbal angle (degrees) |
+| `task_desc` | `str` | Natural-language navigation instruction |
+| `target_pos` | `float[3]` | Target world position `(x, y, z)` |
+| `gt_traj` | `float[N,3]` | Ground-truth trajectory points |
+| `gt_traj_len` | `float` | Ground-truth trajectory length |
+
+#### 3.2 Example view for humans
+
+To make inspection easier without loading PKL directly, we provide:
+
+- `dataset/navi_data_preview.json`
+
+This JSON contains:
+
+- field descriptions
+- total sample count
+- preview of the first few samples (including `gt_traj` partial points)
+
+Example item (simplified):
+
+```json
+{
+  "sample_index": 0,
+  "folder": "0",
+  "task_desc": "the entrance of the red building on the left front",
+  "start_pos": [6589.18164, -4162.23877, -36.2995872],
+  "start_rot": [0.0, 0.0, 3.14159251],
+  "start_ang": 0.0,
+  "target_pos": [6390.7041, -4154.58545, -6.29958725],
+  "gt_traj_len": 229.99981973603806,
+  "gt_traj_num_points": 28,
+  "gt_traj_preview_first5": [
+    [6589.18164, -4162.23877, -36.2995872],
+    [6579.18164, -4162.23877, -36.2995872],
+    [6569.18164, -4162.23877, -36.2995872],
+    [6559.18164, -4162.23877, -36.2995872],
+    [6549.18164, -4162.23877, -36.2995872]
+  ]
+}
+```
 
 ### 4. How to test your own model
 
@@ -116,6 +139,38 @@ Then run:
 
 ```bash
 python embodied_vln.py
+```
+
+#### 4.1 Example: connect other API models
+
+Use the API placeholder pattern in `embodied_vln.py` as a template for plugging in your own model service.
+
+Current placeholders (in `embodied_vln.py`) are:
+
+- `AZURE_OPENAI_MODEL`
+- `AZURE_OPENAI_API_KEY`
+- `AZURE_OPENAI_ENDPOINT`
+- `AZURE_OPENAI_API_VERSION` (optional, default: `2024-07-01-preview`)
+
+PowerShell example:
+
+```powershell
+$env:AZURE_OPENAI_MODEL="your-deployment-name"
+$env:AZURE_OPENAI_API_KEY="your-api-key"
+$env:AZURE_OPENAI_ENDPOINT="https://your-resource-name.openai.azure.com/"
+$env:AZURE_OPENAI_API_VERSION="2024-07-01-preview"
+```
+
+If you use a non-Azure model API, keep this contract unchanged:
+
+- `ActionGen.query(...)` must return one text command each step.
+- Returned command should still be compatible with `parse_llm_action(...)`.
+
+Minimal expected return format:
+
+```text
+Thinking: <your model reasoning>
+Command: move_forth
 ```
 
 ---
