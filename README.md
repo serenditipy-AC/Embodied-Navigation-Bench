@@ -1,5 +1,8 @@
 # How Far Are Large Multimodal Models from Human-Level Spatial Action? A Benchmark for Goal-Oriented Embodied Navigation in Urban Airspace
 
+[![arXiv](https://img.shields.io/badge/arXiv-2604.07973-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/html/2604.07973v1)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Dataset-181717?logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/EmbodiedCity/EmbodiedNav-Bench)
+
 ## Abstract
 
 Large multimodal models (LMMs) show strong visual-linguistic reasoning but their capacity for spatial decision-making and action remains unclear. In this work, we investigate whether LMMs can achieve embodied spatial action like human through a challenging scenario: goal-oriented navigation in urban 3D spaces. We first spend over 500 hours constructing a dataset comprising 5,037 high-quality goal-oriented navigation samples, with an emphasis on 3D vertical actions and rich urban semantic information. Then, we comprehensively assess 17 representative models, including non-reasoning LMMs, reasoning LMMs, agent-based methods, and vision-language-action models. Experiments show that current LMMs exhibit emerging action capabilities, yet remain far from human-level performance. Furthermore, we reveal an intriguing phenomenon: navigation errors do not accumulate linearly but instead diverge rapidly from the destination after a critical decision bifurcation. The limitations of LMMs are investigated by analyzing their behavior at these critical decision bifurcations. Finally, we experimentally explore four promising directions for improvement: geometric perception, cross-view understanding, spatial imagination, and long-term memory.
@@ -15,7 +18,7 @@ Large multimodal models (LMMs) show strong visual-linguistic reasoning but their
 |                       *Goal: Nearby bus stop*                       |          *Goal: The fresh food shop in the building below*          | *Goal: The balcony on the 20th floor of the building on the right* |
 | <a href="video/1.mp4"><img src="video/1.gif" width="300"></a> | <a href="video/2.mp4"><img src="video/2.gif" width="300"></a> | <a href="video/3.mp4"><img src="video/3.gif" width="300"></a> |
 
-> **Note**: The videos above demonstrate goal-oriented embodied navigation examples in urban airspace. Given linguistic instructions, the task evaluates the ability to progressively act based on continuous embodied observations to approach the goal location.
+The videos above demonstrate goal-oriented embodied navigation examples in urban airspace. Given linguistic instructions, the task evaluates the ability to progressively act based on continuous embodied observations to approach the goal location.
 
 ### Dataset Statistics
 
@@ -67,18 +70,27 @@ conda activate EmbodiedCity
 
 ### 3. Dataset release
 
-All paths below are **relative to the project root**.
+The full EmbodiedNav-Bench release comprises **5,037 high-quality, goal-oriented navigation trajectories**. To keep the code repository lightweight and ensure a single canonical data source, all dataset artifacts are distributed through the Hugging Face dataset repository:
 
-We are currently open-sourcing 300 trajectories as public examples:
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Dataset-181717?logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/EmbodiedCity/EmbodiedNav-Bench)
 
-- `dataset/navi_data.pkl`
-- `dataset/navi_data_preview.json` (human-readable JSON preview)
+The Hugging Face repository is the canonical data release location. This GitHub repository focuses on simulator setup, evaluation code, and project documentation.
 
-`dataset/navi_data.pkl` is the canonical dataset file for evaluation.
+Data files in the Hugging Face repository:
+
+| File | Purpose |
+| :-- | :-- |
+| `dataset/navi_data.pkl` | Canonical navigation data for evaluation. |
+| `dataset/navi_data_preview.json` | Human-readable preview of the canonical PKL file. |
+| `data/viewer-00000-of-00001.parquet` | Hugging Face Dataset Viewer table representation for browsing and visualization. |
+
+The Parquet file is provided for the Hugging Face Table view. Use `dataset/navi_data.pkl` as the canonical file for evaluation.
+
+Before running the local evaluator, download the canonical PKL file from Hugging Face to `dataset/navi_data.pkl` under the project root.
 
 #### 3.1 `navi_data.pkl` field schema
 
-Each sample in `dataset/navi_data.pkl` is a Python `dict` with the following fields:
+Each sample in the canonical `dataset/navi_data.pkl` file is a Python `dict` with the following fields:
 
 | Field | Type | Description |
 | :-- | :-- | :-- |
@@ -91,19 +103,7 @@ Each sample in `dataset/navi_data.pkl` is a Python `dict` with the following fie
 | `gt_traj` | `float[N,3]` | Ground-truth trajectory points |
 | `gt_traj_len` | `float` | Ground-truth trajectory length |
 
-#### 3.2 Example view for humans
-
-To make inspection easier without loading PKL directly, we provide:
-
-- `dataset/navi_data_preview.json`
-
-This JSON contains:
-
-- field descriptions
-- total sample count
-- preview of the first few samples (including `gt_traj` partial points)
-
-Example item (simplified):
+#### 3.2 Example item
 
 ```json
 {
@@ -180,4 +180,18 @@ Command: move_forth
 
 We evaluate 17 representative models across five categories: Basic Baselines, Non-Reasoning LMMs, Reasoning LMMs, Agent-Based Approaches, and Vision-Language-Action Models.![QuantitativeResults](image/QuantitativeResults.png)
 
-> **Note**: Short, Middle, and Long groups correspond to ground truth trajectories of <118.2m, 118.2-223.6m, and >223.6m respectively. SR = Success Rate, SPL = Success weighted by Path Length, DTG = Distance to Goal.
+Short, Middle, and Long groups correspond to ground truth trajectories of <118.2m, 118.2-223.6m, and >223.6m respectively. SR = Success Rate, SPL = Success weighted by Path Length, DTG = Distance to Goal.
+
+## Citation
+
+```bibtex
+@misc{zhao2026farlargemultimodalmodels,
+      title={How Far Are Large Multimodal Models from Human-Level Spatial Action? A Benchmark for Goal-Oriented Embodied Navigation in Urban Airspace},
+      author={Baining Zhao and Ziyou Wang and Jianjie Fang and Zile Zhou and Yanggang Xu and Yatai Ji and Jiacheng Xu and Qian Zhang and Weichen Zhang and Chen Gao and Xinlei Chen},
+      year={2026},
+      eprint={2604.07973},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/html/2604.07973v1},
+}
+```
