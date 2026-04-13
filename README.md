@@ -11,12 +11,14 @@ Large multimodal models (LMMs) show strong visual-linguistic reasoning but their
 
 ## Dataset Overview
 
+The videos above demonstrate goal-oriented embodied navigation examples in urban airspace. Given linguistic instructions, the task evaluates the ability to progressively act based on continuous embodied observations to approach the goal location.
+
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
     <tr>
-      <th align="center">index</th>
-      <th align="center">goal</th>
-      <th align="center">ground truth</th>
+      <th align="center">Index</th>
+      <th align="center">Goal</th>
+      <th align="center">Video (Speed Up)</th>
     </tr>
   </thead>
   <tbody>
@@ -47,35 +49,33 @@ Large multimodal models (LMMs) show strong visual-linguistic reasoning but their
     </tr>
     <tr>
       <td align="center">6</td>
-      <td>The open ground between the two buildings below</td>
+      <td>The residential area gate between the two buildings below</td>
       <td align="center"><a href="video/6.mp4"><img src="video/6.gif" width="320"></a></td>
     </tr>
     <tr>
       <td align="center">7</td>
-      <td>The entrance of the restaurant with the red sign below</td>
+      <td>The restaurant with the red sign below</td>
       <td align="center"><a href="video/7.mp4"><img src="video/7.gif" width="320"></a></td>
     </tr>
     <tr>
       <td align="center">8</td>
-      <td>The entrance of the residential complex's iron gate below</td>
+      <td>The way into the residential complex next to the coffee shop</td>
       <td align="center"><a href="video/8.mp4"><img src="video/8.gif" width="320"></a></td>
     </tr>
     <tr>
       <td align="center">9</td>
-      <td>The ground-floor entrance of the building on the lower right</td>
+      <td>Two stone lions nearby</td>
       <td align="center"><a href="video/9.mp4"><img src="video/9.gif" width="320"></a></td>
     </tr>
     <tr>
       <td align="center">10</td>
-      <td>The entrance of the security booth in the residential complex below</td>
+      <td>The nearest entrance to the residential complex below</td>
       <td align="center"><a href="video/10.mp4"><img src="video/10.gif" width="320"></a></td>
     </tr>
   </tbody>
 </table>
 
-The demonstration GIFs above are sped up by 10x and reduced in resolution to keep the file size manageable for GitHub display.
 
-The videos above demonstrate goal-oriented embodied navigation examples in urban airspace. Given linguistic instructions, the task evaluates the ability to progressively act based on continuous embodied observations to approach the goal location.
 
 ### Dataset Statistics
 
@@ -83,12 +83,8 @@ The videos above demonstrate goal-oriented embodied navigation examples in urban
 
 - **Total Trajectories**: 5,037 high-quality goal-oriented navigation trajectories
 - **Data Collection**: Over 500 hours of human-controlled data collection
-- **Average Trajectory Length**: ~203.4 meters
 - **Annotators**: 10 volunteers (5 for case creation, 5 experienced drone pilots with 100+ hours flight experience)
-- **Action Types**:
-  - Horizontal movement (move-forth, move-left, move-right, move-back)
-  - Vertical movement (move-up, move-down)
-  - Rotation/view Change (turn-left, turn-right，adjust-camera-gimbal-upwards, adjust-camera-gimbal-downwards)
+- **Action Types**: 6 DoF, Continuous or Discrete
 - **Trajectory Distribution**: Pay more attention to vertical movement
 
 **Dataset Construction and Statistical Visualization:** 
