@@ -55,6 +55,21 @@ Large multimodal models (LMMs) show strong visual-linguistic reasoning but their
       <td>The entrance of the restaurant with the red sign below</td>
       <td align="center"><a href="video/7.mp4"><img src="video/7.gif" width="320"></a></td>
     </tr>
+    <tr>
+      <td align="center">8</td>
+      <td>The entrance of the residential complex's iron gate below</td>
+      <td align="center"><a href="video/8.mp4"><img src="video/8.gif" width="320"></a></td>
+    </tr>
+    <tr>
+      <td align="center">9</td>
+      <td>The ground-floor entrance of the building on the lower right</td>
+      <td align="center"><a href="video/9.mp4"><img src="video/9.gif" width="320"></a></td>
+    </tr>
+    <tr>
+      <td align="center">10</td>
+      <td>The entrance of the security booth in the residential complex below</td>
+      <td align="center"><a href="video/10.mp4"><img src="video/10.gif" width="320"></a></td>
+    </tr>
   </tbody>
 </table>
 
