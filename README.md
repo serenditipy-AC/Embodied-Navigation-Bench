@@ -11,12 +11,54 @@ Large multimodal models (LMMs) show strong visual-linguistic reasoning but their
 
 ## Dataset Overview
 
-### Navigation Example
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th align="center">index</th>
+      <th align="center">goal</th>
+      <th align="center">ground truth</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">1</td>
+      <td>Nearby bus stop</td>
+      <td align="center"><a href="video/1.mp4"><img src="video/1.gif" width="320"></a></td>
+    </tr>
+    <tr>
+      <td align="center">2</td>
+      <td>The fresh food shop in the building below</td>
+      <td align="center"><a href="video/2.mp4"><img src="video/2.gif" width="320"></a></td>
+    </tr>
+    <tr>
+      <td align="center">3</td>
+      <td>The balcony on the 20th floor of the building on the right</td>
+      <td align="center"><a href="video/3.mp4"><img src="video/3.gif" width="320"></a></td>
+    </tr>
+    <tr>
+      <td align="center">4</td>
+      <td>The helipad on the rooftop below</td>
+      <td align="center"><a href="video/4.mp4"><img src="video/4.gif" width="320"></a></td>
+    </tr>
+    <tr>
+      <td align="center">5</td>
+      <td>The table at the entrance of the yellow-roofed restaurant below</td>
+      <td align="center"><a href="video/5.mp4"><img src="video/5.gif" width="320"></a></td>
+    </tr>
+    <tr>
+      <td align="center">6</td>
+      <td>The open ground between the two buildings below</td>
+      <td align="center"><a href="video/6.mp4"><img src="video/6.gif" width="320"></a></td>
+    </tr>
+    <tr>
+      <td align="center">7</td>
+      <td>The entrance of the restaurant with the red sign below</td>
+      <td align="center"><a href="video/7.mp4"><img src="video/7.gif" width="320"></a></td>
+    </tr>
+  </tbody>
+</table>
 
-|                               Example 1                               |                               Example 2                               |                               Example 3                               |
-| :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
-|                       *Goal: Nearby bus stop*                       |          *Goal: The fresh food shop in the building below*          | *Goal: The balcony on the 20th floor of the building on the right* |
-| <a href="video/1.mp4"><img src="video/1.gif" width="300"></a> | <a href="video/2.mp4"><img src="video/2.gif" width="300"></a> | <a href="video/3.mp4"><img src="video/3.gif" width="300"></a> |
+The demonstration GIFs above are sped up by 10x and reduced in resolution to keep the file size manageable for GitHub display.
 
 The videos above demonstrate goal-oriented embodied navigation examples in urban airspace. Given linguistic instructions, the task evaluates the ability to progressively act based on continuous embodied observations to approach the goal location.
 
