@@ -80,9 +80,8 @@ Data files in the Hugging Face repository:
 
 | File | Purpose |
 | :-- | :-- |
-| `dataset/navi_data.pkl` | Canonical navigation data for evaluation. |
-| `dataset/navi_data_preview.json` | Human-readable preview of the canonical PKL file. |
-| `data/viewer-00000-of-00001.parquet` | Hugging Face Dataset Viewer table representation for browsing and visualization. |
+| `navi_data.pkl` | Canonical PKL file for evaluation. |
+| `viewer-00000-of-00001.parquet` | Parquet representation for the Hugging Face Dataset Viewer table. |
 
 The Parquet file is provided for the Hugging Face Table view. Use `dataset/navi_data.pkl` as the canonical file for evaluation.
 
@@ -94,7 +93,7 @@ Each sample in the canonical `dataset/navi_data.pkl` file is a Python `dict` wit
 
 | Field | Type | Description |
 | :-- | :-- | :-- |
-| `folder` | `str` | Scene folder identifier |
+| `sample_index` | `int` | Case index. |
 | `start_pos` | `float[3]` | Initial drone world position `(x, y, z)` |
 | `start_rot` | `float[3]` | Initial drone orientation `(roll, pitch, yaw)` in radians |
 | `start_ang` | `float` | Initial camera gimbal angle (degrees) |
@@ -108,7 +107,6 @@ Each sample in the canonical `dataset/navi_data.pkl` file is a Python `dict` wit
 ```json
 {
   "sample_index": 0,
-  "folder": "0",
   "task_desc": "the entrance of the red building on the left front",
   "start_pos": [6589.18164, -4162.23877, -36.2995872],
   "start_rot": [0.0, 0.0, 3.14159251],
