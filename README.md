@@ -177,6 +177,79 @@ Each sample in the canonical `dataset/navi_data.pkl` file is a Python `dict` wit
 }
 ```
 
+#### 3.3 Video of the Ground-Truth Navigation Trajectory (Optional)
+
+For visual inspection or for building VO-style replay data from the ground-truth trajectory, you can use [`export_embodiednav_vo_dataset.py`](./export_embodiednav_vo_dataset.py). This script replays the ground-truth path in AirSim, interpolates intermediate states, and exports synchronized images, KITTI-format poses, and an optional MP4 video.
+
+**What the script exports**
+
+```text
+<output_root>/
+  sequences_jpg/
+    case_0000/
+      image_2/
+        000000.jpg
+        000001.jpg
+        ...
+  poses/
+    case_0000.txt
+  videos/
+    case_0000.mp4
+  cases_manifest.json
+```
+
+**Before running**
+
+- Start the EmbodiedCity / AirSim simulator and keep it connected.
+- Download the canonical dataset file to `dataset/navi_data.pkl`.
+- If you want to control capture resolution, edit `Documents/AirSim/settings.json` before launching AirSim. For example, to use `256x256` scene images:
+
+```json
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "ComputerVision",
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 256,
+        "Height": 256
+      }
+    ]
+  }
+}
+```
+
+**Example command**
+
+```bash
+python export_embodiednav_vo_dataset.py \
+  --dataset dataset/navi_data.pkl \
+  --output-root test_angle4_colorfix_256 \
+  --sample-indices 0 1 2 \
+  --pos-step-m 0.8 \
+  --angle-step-deg 4 \
+  --frame-settle-sec 0.03 \
+  --video-fps 15
+```
+
+**Important arguments**
+
+- `--sample-indices`: one or more dataset indices to replay.
+- `--output-root`: root directory for exported images, poses, video, and manifest.
+- `--pos-step-m`: maximum translation per interpolated step.
+- `--angle-step-deg`: maximum yaw / gimbal angle change per interpolated step.
+- `--frame-settle-sec`: short wait after each simulator pose update before capture.
+- `--video-fps`: FPS of the exported MP4 video.
+- `--camera-name`: AirSim camera name, default is `0`.
+- `--image-quality`: JPEG quality for exported frames.
+
+**Notes**
+
+- The script interpolates the trajectory adaptively: it inserts intermediate states based on translation distance and angular change, rather than using a fixed number of frames between waypoints.
+- Each frame is aligned with one pose row in KITTI `3x4` format.
+- The `cases_manifest.json` file records the sample indices, export parameters, and output paths for each generated case.
+
 ### 4. How to test your own model
 
 To evaluate your model, modify the Agent logic in [`embodied_vln.py`](./embodied_vln.py), mainly in the `ActionGen` class:
