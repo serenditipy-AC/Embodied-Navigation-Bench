@@ -322,8 +322,8 @@ class VLN_evaluator:
 
             traj_len = 0.0
             step = 0
-            max_steps = 50
-            threshold = 20
+            max_steps = max(30, int(gt_traj.shape[0] * 2))
+            threshold = 15
 
             # Step-by-step control loop.
             while step < max_steps:
